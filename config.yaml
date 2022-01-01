@@ -55,3 +55,10 @@ monitors:
     method: GET
     expectStatus: 200
     
+    
+  - id: caching
+    name: Cach.ng @ 59s
+    url: 'https://cach.ng/api/graphql59'
+    method: GET
+    expectStatus: 200
+    
