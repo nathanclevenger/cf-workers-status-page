@@ -23,6 +23,16 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+    
+    
+  - id: api-cf # unique identifier
+    name: api.cf
+#     description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://api.cf/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
 
   - id: egraph
     name: egra.ph
@@ -32,7 +42,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: actions.dev
+  - id: actions-dev
     name: actions.dev
     url: 'https://actions.dev'
     method: GET
