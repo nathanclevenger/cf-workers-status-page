@@ -16,26 +16,26 @@ settings:
 
 monitors:
   - id: api-mt # unique identifier
-    name: api.mt
+    name: API.Mt
 #     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://api.mt/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
     
     
   - id: api-cf # unique identifier
-    name: api.cf
+    name: API.cf
 #     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://api.cf/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: egraph
-    name: egra.ph
+    name: eGra.ph
 #     description: 'Built for anything connected to the Internet.'
     url: 'https://egra.ph'
     method: GET
@@ -43,7 +43,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: actions-dev
-    name: actions.dev
+    name: Actions.Dev
     url: 'https://actions.dev'
     method: GET
     expectStatus: 200
