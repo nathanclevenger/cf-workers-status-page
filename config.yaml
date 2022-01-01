@@ -47,3 +47,11 @@ monitors:
     url: 'https://actions.dev'
     method: GET
     expectStatus: 200
+    
+    
+  - id: caching
+    name: Cach.ng
+    url: 'https://cach.ng/api/graphql'
+    method: GET
+    expectStatus: 200
+    
