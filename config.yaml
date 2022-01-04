@@ -65,9 +65,19 @@ monitors:
     expectStatus: 200
     
     
-  - id: caching
+  - id: caching59
     name: Cach.ng @ 59s
     url: 'https://cach.ng/api/graphql59'
     method: GET
     expectStatus: 200
+    
+    
+    
+  - id: hosts
+    name: GCP US Central
+    url: 'https://saas.us-central1.gcp.cloud.dgraph.io/graphql?query={queryDomain{name}}'
+    method: GET
+    expectStatus: 200
+    
+    
     
