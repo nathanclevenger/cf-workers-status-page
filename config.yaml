@@ -72,7 +72,6 @@ monitors:
     expectStatus: 200
     
     
-    
   - id: hosts
     name: GCP US Central
     url: 'https://saas.us-central1.gcp.cloud.dgraph.io/graphql?query={queryDomain{name}}'
@@ -80,10 +79,17 @@ monitors:
     expectStatus: 200 http://aï.co
     
     
-    
   - id: ai-co
     name: aï.co
     url: 'http://aï.co'
+    method: GET
+    expectStatus: 200 
+    
+    
+    
+  - id: saas-dev
+    name: SaaS.Dev
+    url: 'http://saas.dev'
     method: GET
     expectStatus: 200 
     
