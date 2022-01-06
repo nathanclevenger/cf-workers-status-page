@@ -76,7 +76,7 @@ monitors:
     name: GCP US Central
     url: 'https://saas.us-central1.gcp.cloud.dgraph.io/graphql?query={queryDomain{name}}'
     method: GET
-    expectStatus: 200 http://aï.co
+    expectStatus: 200
     
     
   - id: ai-co
