@@ -81,7 +81,7 @@ monitors:
     
     
     
-  - id: aï.co
+  - id: ai-co
     name: aï.co
     url: 'http://aï.co'
     method: GET
