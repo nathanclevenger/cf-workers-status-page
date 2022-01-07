@@ -102,14 +102,14 @@ monitors:
     
     
     
-  - id: kvapi
+  - id: kvapi-a
     name: KV API
     url: 'https://xn--ap-ipa.ws/kv/SaaS'
     method: GET
     expectStatus: 200 
     
         
-  - id: kvapihttp
+  - id: kvapihttp-a
     name: KV API (HTTP)
     url: 'http://xn--ap-ipa.ws/kv/API'
     method: GET
