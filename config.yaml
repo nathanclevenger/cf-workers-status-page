@@ -86,9 +86,17 @@ monitors:
     expectStatus: 200 
     
     
-  - id: saas-dev
+    
+  - id: ai-co-http
+    name: aï.co (no SSL)
+    url: 'http://xn--a-nga.co/'
+    method: GET
+    expectStatus: 200 
+    
+    
+  - id: saasdev
     name: SaaS.Dev
-    url: 'http://saas.dev'
+    url: 'https://saas.dev'
     method: GET
     expectStatus: 200 
     
