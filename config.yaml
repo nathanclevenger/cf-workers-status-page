@@ -101,3 +101,12 @@ monitors:
     expectStatus: 200 
     
     
+    
+  - id: kvapi
+    name: KV API
+    url: 'https://apı.ws/kv/SaaS'
+    method: GET
+    expectStatus: 200 
+    
+    
+    
