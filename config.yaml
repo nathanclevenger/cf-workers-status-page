@@ -104,14 +104,14 @@ monitors:
     
   - id: kvapi
     name: KV API
-    url: 'https://apı.ws/kv/SaaS'
+    url: 'https://xn--ap-ipa/kv/SaaS'
     method: GET
     expectStatus: 200 
     
         
   - id: kvapihttp
     name: KV API (HTTP)
-    url: 'http://apı.ws/kv/API'
+    url: 'http://xn--ap-ipa/kv/API'
     method: GET
     expectStatus: 200 
     
@@ -119,7 +119,7 @@ monitors:
         
   - id: kvapihttp2
     name: KV API Host 1 (HTTP)
-    url: 'http://aı.co/kv/Graph'
+    url: 'http://xn--a-nga.co/kv/Graph'
     method: GET
     expectStatus: 200 
     
@@ -127,7 +127,7 @@ monitors:
         
   - id: kvapihttp3
     name: KV API Host 2 (HTTP)
-    url: 'http://apı.ws/kv/Graph'
+    url: 'https://xn--ap-ipa.ws/kv/Graph'
     method: GET
     expectStatus: 200 
     
