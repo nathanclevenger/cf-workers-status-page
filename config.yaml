@@ -133,3 +133,11 @@ monitors:
     
     
     
+        
+  - id: kvapihttp4
+    name: KV API Same Host 2 (HTTP)
+    url: 'http://xn--ap-ipa.ws/kv/Graph'
+    method: GET
+    expectStatus: 200 
+    
+    
