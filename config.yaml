@@ -94,6 +94,13 @@ monitors:
     expectStatus: 200 
     
     
+  - id: ai-co-sub
+    name: sub.aï.co
+    url: 'https://sub.xn--a-nga.co/'
+    method: GET
+    expectStatus: 200 
+    
+    
   - id: saasdev
     name: SaaS.Dev
     url: 'https://saas.dev'
@@ -141,3 +148,9 @@ monitors:
     expectStatus: 200 
     
     
+        
+  - id: cacheapi
+    name: SWR Cache API Same
+    url: 'http://xn--ap-ipa.com/cache'
+    method: GET
+    expectStatus: 200 
