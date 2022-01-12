@@ -151,6 +151,15 @@ monitors:
         
   - id: cacheapi
     name: SWR Cache API Same
-    url: 'http://xn--ap-ipa.com/cache'
+    url: 'https://xn--ap-ipa.com/cache'
+    method: GET
+    expectStatus: 200 
+    
+    
+    
+        
+  - id: word
+    name: Word
+    url: 'https://api.cf/words/example'
     method: GET
     expectStatus: 200 
