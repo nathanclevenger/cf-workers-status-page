@@ -72,6 +72,12 @@ monitors:
     expectStatus: 200
     
     
+  - id: hosts-cdn
+    name: Graph CDN
+    url: 'https://saas.graphcdn.app/?query={queryDomain{name}}'
+    method: GET
+    expectStatus: 200
+    
   - id: hosts
     name: GCP US Central
     url: 'https://saas.us-central1.gcp.cloud.dgraph.io/graphql?query={queryDomain{name}}'
