@@ -163,3 +163,11 @@ monitors:
     url: 'https://api.cf/words/example'
     method: GET
     expectStatus: 200 
+    
+            
+  - id: Symbols GH Pages
+    name: symbols-gh-pages
+    url: 'https://config.data.mt/data/symbols.json'
+    method: GET
+    expectStatus: 200 
+    
