@@ -171,3 +171,11 @@ monitors:
     method: GET
     expectStatus: 200 
     
+    
+            
+  - id: Symbols GH Pages CF Proxy
+    name: symbols-cf-gh-pages
+    url: 'https://test.data.mt/data/symbols.json'
+    method: GET
+    expectStatus: 200 
+    
