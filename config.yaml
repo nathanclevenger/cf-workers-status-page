@@ -185,3 +185,10 @@ monitors:
     method: GET
     expectStatus: 200 
     
+    
+            
+  - id: Edge Function
+    name: edge-function
+    url: 'https://longtail.ventures/api'
+    method: GET
+    expectStatus: 200 
