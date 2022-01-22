@@ -195,7 +195,7 @@ monitors:
 
             
   - id: Edge Function Subdomain
-    name: edge-function-sub
+    name: edge-function-sub2
     url: 'http://test5.longtail.ventures'
     method: GET
     expectStatus: 200 
