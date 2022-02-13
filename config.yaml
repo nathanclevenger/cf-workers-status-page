@@ -199,4 +199,13 @@ monitors:
     url: 'http://test5.longtail.ventures'
     method: GET
     expectStatus: 200 
+    
+    
+  - id: Edge Function Subdomain
+    name: edge-function-sub2
+    url: 'https://api.cfd/db/Domains'
+    method: GET
+    expectStatus: 200 
+    
+    
 
