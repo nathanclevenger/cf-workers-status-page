@@ -201,8 +201,8 @@ monitors:
     expectStatus: 200 
     
     
-  - id: Edge Function Subdomain
-    name: edge-function-sub2
+  - id: DB Cache
+    name: db-cache
     url: 'https://api.cfd/db/Domains'
     method: GET
     expectStatus: 200 
