@@ -214,4 +214,14 @@ monitors:
     url: 'https://word.as/_next/data/rrSNvilhJGr9K_LbV2WP_/system.json'
     method: GET
     expectStatus: 200 
+    
+    
+    
+  - id: Static JSON
+    name: static-json
+    url: 'https://studio.sbs/symbols.json'
+    method: GET
+    expectStatus: 200 
+    
+    
 
