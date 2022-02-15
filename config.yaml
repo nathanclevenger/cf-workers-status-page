@@ -224,4 +224,12 @@ monitors:
     expectStatus: 200 
     
     
+    
+    
+  - id: CF Static JSON
+    name: cf-static-json
+    url: 'https://325438c6.portfolio-5rs.pages.dev/symbols.json'
+    method: GET
+    expectStatus: 200 
+    
 
