@@ -232,4 +232,20 @@ monitors:
     method: GET
     expectStatus: 200 
     
+    
+        
+  - id: Test
+    name: drivly-dev
+    url: 'https://drivly.dev'
+    method: GET
+    expectStatus: 200 
+    
+    
+        
+  - id: Listing
+    name: drivly-dev-listings
+    url: 'https://drivly.dev/api/listings'
+    method: GET
+    expectStatus: 200 
+   
 
