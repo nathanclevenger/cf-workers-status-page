@@ -189,14 +189,14 @@ monitors:
             
   - id: Edge Function
     name: edge-function
-    url: 'https://longtail.ventures/api'
+    url: 'https://studio.sbs/api'
     method: GET
     expectStatus: 200 
 
             
   - id: Edge Function Subdomain
     name: edge-function-sub2
-    url: 'http://test5.longtail.ventures'
+    url: 'http://test5.studio.sbs'
     method: GET
     expectStatus: 200 
     
