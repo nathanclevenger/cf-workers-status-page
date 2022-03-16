@@ -196,7 +196,7 @@ monitors:
             
   - id: Edge Function Subdomain
     name: edge-function-sub2
-    url: 'http://test5.studio.sbs'
+    url: 'https://test5.studio.sbs'
     method: GET
     expectStatus: 200 
     
@@ -249,3 +249,10 @@ monitors:
     expectStatus: 200 
    
 
+    
+        
+  - id: Management
+    name: mgmt
+    url: 'https://api.mt'
+    method: GET
+    expectStatus: 200 
