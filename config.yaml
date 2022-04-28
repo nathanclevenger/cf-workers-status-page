@@ -78,11 +78,11 @@ monitors:
     method: GET
     expectStatus: 200
     
-  - id: hosts
-    name: GCP US Central
-    url: 'https://saas.us-central1.gcp.cloud.dgraph.io/graphql?query={queryDomain{name}}'
-    method: GET
-    expectStatus: 200
+#   - id: hosts
+#     name: GCP US Central
+#     url: 'https://saas.us-central1.gcp.cloud.dgraph.io/graphql?query={queryDomain{name}}'
+#     method: GET
+#     expectStatus: 200
     
     
   - id: ai-co
@@ -248,7 +248,12 @@ monitors:
     method: GET
     expectStatus: 200 
    
-
+       
+  - id: AirSync
+    name: air-sync
+    url: 'http://api.cfd/build/SaaS'
+    method: GET
+    expectStatus: 200 
     
         
   - id: Management
