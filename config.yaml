@@ -201,13 +201,24 @@ monitors:
     expectStatus: 200 
     
     
+  - id: DB
+    name: db
+    url: 'https://api.cfd/nocache/Domains'
+    method: GET
+    expectStatus: 200 
+    
+  - id: DB Cache SWR
+    name: db-cache
+    url: 'https://api.cfd/swr/Domains'
+    method: GET
+    expectStatus: 200 
+    
+    
   - id: DB Cache
     name: db-cache
     url: 'https://api.cfd/db/Domains'
     method: GET
     expectStatus: 200 
-    
-    
     
   - id: SWR Cache
     name: swr-cache
