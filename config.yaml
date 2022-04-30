@@ -107,6 +107,12 @@ monitors:
     expectStatus: 200 
     
     
+  - id: fast-co-sub
+    name: sub.aï.co
+    url: 'https://fast.xn--a-nga.co/'
+    method: GET
+    expectStatus: 200 
+    
   - id: saasdev
     name: SaaS.Dev
     url: 'https://saas.dev'
@@ -208,7 +214,7 @@ monitors:
     expectStatus: 200 
     
   - id: DB Cache SWR
-    name: db-cache
+    name: db-cache-swr
     url: 'https://api.cfd/swr/Domains'
     method: GET
     expectStatus: 200 
