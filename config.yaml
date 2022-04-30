@@ -266,6 +266,11 @@ monitors:
     method: GET
     expectStatus: 200 
     
+  - id: Air
+    name: air
+    url: 'http://api.cfd/air/SaaS'
+    method: GET
+    expectStatus: 200 
         
   - id: Management
     name: mgmt
