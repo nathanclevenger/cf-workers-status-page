@@ -283,3 +283,9 @@ monitors:
     url: 'https://api.mt'
     method: GET
     expectStatus: 200 
+        
+  - id: Actions
+    name: actionst
+    url: 'https://action.st'
+    method: GET
+    expectStatus: 200 
