@@ -289,3 +289,11 @@ monitors:
     url: 'https://action.st'
     method: GET
     expectStatus: 200 
+    
+        
+  - id: ActionsPost
+    name: actionpost
+    url: 'https://action.st/post/1'
+    method: GET
+    expectStatus: 200 
+    
