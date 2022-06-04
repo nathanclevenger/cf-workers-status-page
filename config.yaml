@@ -122,6 +122,13 @@ monitors:
     expectStatus: 200 
     
     
+  - id: ai-co-req
+    name: aï.co req
+    url: 'https://xn--a-nga.co/req'
+    method: GET
+    expectStatus: 200 
+    
+    
   - id: saasdev
     name: SaaS.Dev
     url: 'https://saas.dev'
