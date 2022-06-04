@@ -280,6 +280,14 @@ monitors:
     url: 'https://drivly.dev/api/listings'
     method: GET
     expectStatus: 200 
+    
+    
+        
+  - id: Echo Repeat
+    name: drivly-dev-echo
+    url: 'https://drivly.dev'
+    method: GET
+    expectStatus: 200 
    
        
   - id: AirSync
