@@ -113,6 +113,15 @@ monitors:
     method: GET
     expectStatus: 200 
     
+    
+    
+  - id: ai-co-again
+    name: aï.co
+    url: 'https://xn--a-nga.co/'
+    method: GET
+    expectStatus: 200 
+    
+    
   - id: saasdev
     name: SaaS.Dev
     url: 'https://saas.dev'
