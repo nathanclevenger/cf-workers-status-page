@@ -321,3 +321,11 @@ monitors:
     method: GET
     expectStatus: 200 
     
+    
+        
+  - id: Counter
+    name: counter
+    url: 'https://api.countapi.xyz/hit/drive/visits'
+    method: GET
+    expectStatus: 200 
+    
