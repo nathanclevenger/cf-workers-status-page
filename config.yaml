@@ -334,8 +334,15 @@ monitors:
     url: 'https://counts.to/'
     method: GET
     expectStatus: 200 
+    
+    
+  - id: CountsIP
+    name: counts-ip
+    url: 'http://counts.to/ip'
+    method: GET
+    expectStatus: 200 
+    
 
-        
   - id: GCache
     name: gcache
     url: 'https://global-allowing-crane-30700.upstash.io/hget/school:1/type?_token=AnfsASQgMDVmMzExMTItMWIxYi00MGE1LWI2OTctN2YxNDMzNzAyNGM2eVcKYVRpCLpdX0vGiE3AIY3Q4znK7NObgS-sIf-POpM='
