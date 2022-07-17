@@ -342,6 +342,18 @@ monitors:
     method: GET
     expectStatus: 200 
     
+  - id: CountsVal
+    name: countsval
+    url: 'https://counts.to/value'
+    method: GET
+    expectStatus: 200 
+    
+    
+  - id: CountsIP
+    name: counts-ip-val
+    url: 'http://counts.to/ip/value'
+    method: GET
+    expectStatus: 200 
 
   - id: GCache
     name: gcache
