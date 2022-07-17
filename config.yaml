@@ -349,7 +349,7 @@ monitors:
     expectStatus: 200 
     
     
-  - id: CountsIP
+  - id: CountsIPVal
     name: counts-ip-val
     url: 'http://counts.to/ip/value'
     method: GET
