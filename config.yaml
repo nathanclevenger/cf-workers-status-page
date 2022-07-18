@@ -361,4 +361,11 @@ monitors:
     method: GET
     expectStatus: 200 
     
+        
+  - id: R2
+    name: r2
+    url: 'https://store.as/Graph.json'
+    method: GET
+    expectStatus: 200 
+    
     
