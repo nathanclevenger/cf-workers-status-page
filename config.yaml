@@ -371,6 +371,14 @@ monitors:
     
     
         
+  - id: D1Status
+    name: d1-status
+    url: 'https://northwind.d1sql.com/api/status'
+    method: GET
+    expectStatus: 200 
+    
+    
+        
   - id: D1
     name: d1
     url: 'https://northwind.d1sql.com/api/products?page=1&count=true'
