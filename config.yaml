@@ -369,3 +369,12 @@ monitors:
     expectStatus: 200 
     
     
+    
+        
+  - id: D1
+    name: d1
+    url: 'https://northwind.d1sql.com/api/products?page=1&count=true'
+    method: GET
+    expectStatus: 200 
+    
+    
