@@ -188,7 +188,7 @@ monitors:
         
   - id: word
     name: Word
-    url: 'https://api.cf/words/example'
+    url: 'https://xn--a-nga.co/words/example'
     method: GET
     expectStatus: 200 
     
