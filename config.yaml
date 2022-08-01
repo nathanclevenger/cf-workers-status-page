@@ -186,11 +186,11 @@ monitors:
     
     
         
-  - id: word
-    name: Word
-    url: 'https://xn--a-nga.co/words/example'
-    method: GET
-    expectStatus: 200 
+#   - id: word
+#     name: Word
+#     url: 'https://xn--a-nga.co/words/example'
+#     method: GET
+#     expectStatus: 200 
     
             
   - id: Symbols GH Pages
