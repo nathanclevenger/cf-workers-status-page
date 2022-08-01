@@ -386,3 +386,13 @@ monitors:
     expectStatus: 200 
     
     
+    
+        
+  - id: GoogleJWKS
+    name: GoogleJWKS
+    url: 'https://www.googleapis.com/robot/v1/metadata/jwk/securetoken@system.gserviceaccount.com'
+    method: GET
+    expectStatus: 200 
+    
+    
+    
