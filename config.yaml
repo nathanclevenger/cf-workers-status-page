@@ -395,4 +395,11 @@ monitors:
     expectStatus: 200 
     
     
+        
+  - id: CachedGoogleJWKS
+    name: CachedGoogleJWKS
+    url: 'https://jwk.cached-api.com'
+    method: GET
+    expectStatus: 200 
+    
     
