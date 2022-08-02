@@ -34,14 +34,14 @@ monitors:
     linkable: true # allows the title to be a link, default=true
     
     
-  - id: api-cf # unique identifier
-    name: API.cf
-#     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://api.cf/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+#   - id: api-cf # unique identifier
+#     name: API.cf
+# #     description: 'You write code. They handle the rest.' # default=empty
+#     url: 'https://api.cf/' # URL to fetch
+#     method: GET # default=GET
+#     expectStatus: 200 # operational status, default=200
+#     followRedirect: false # should fetch follow redirects, default=false
+#     linkable: true # allows the title to be a link, default=true
 
   - id: egraph
     name: eGra.ph
