@@ -402,4 +402,10 @@ monitors:
     method: GET
     expectStatus: 200 
     
+      
+  - id: kvapi-miss
+    name: KV Miss
+    url: 'https://xn--ap-ipa.ws/kv/SaaS123'
+    method: GET
+    expectStatus: 200 
     
