@@ -409,3 +409,9 @@ monitors:
     method: GET
     expectStatus: 200 
     
+      
+  - id: colo-do
+    name: colo-do
+    url: 'https://colo.do'
+    method: GET
+    expectStatus: 200 
