@@ -412,6 +412,6 @@ monitors:
       
   - id: colo-do
     name: colo-do
-    url: 'https://colo.do'
+    url: 'https://colo.do/api'
     method: GET
     expectStatus: 200 
