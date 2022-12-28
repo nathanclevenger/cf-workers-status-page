@@ -405,7 +405,7 @@ monitors:
       
   - id: kvapi-miss
     name: KV Miss
-    url: 'https://xn--ap-ipa.ws/kv/SaaS123'
+    url: 'https://xn--ap-ipa.to/kv/SaaS123'
     method: GET
     expectStatus: 200 
     
